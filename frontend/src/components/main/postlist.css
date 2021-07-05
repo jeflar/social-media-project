@@ -1,0 +1,96 @@
+.containerMain {
+    border-style: groove;
+    border-color: #aaaaaa;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.post {
+    border-style: groove;
+    border-color: #aaaaaa;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.postTitle {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: groove;
+    border-color: #f2f2f2;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    line-height: 50px;
+}
+
+#profileImage {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #aaaaaa;
+    font-size: 35px;
+    text-align: center;
+    line-height: 40px;
+    align-items: center;
+}
+
+.postContent {
+    width: 95%;
+    margin-top: 20px;
+    min-height: 150px;
+    text-align: left;
+    word-wrap:break-word;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#time {
+    margin-right: 20px;
+    float: right;
+}
+
+.containerEdit {
+  width: 100%;
+  min-height: 30px;
+}
+
+.edit {
+  width: 50%;
+  height: 30px;
+}
+
+.delete {
+  width: 50%;
+  height: 30px;
+}
+
+.edit:hover {
+  cursor: pointer;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.editPost{
+  width: 100%;
+  min-height: 150px;
+}

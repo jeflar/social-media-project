@@ -1,0 +1,31 @@
+.profileContainer {
+  height: 300px;
+  width: 40%;
+  background: #706c61;
+  margin: auto;
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#profilePhoto {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #aaaaaa;
+    font-size: 35px;
+    text-align: center;
+    line-height: 80px;
+    align-items: center;
+}
+
+.reqBut {
+  height:30px;
+  margin-top: 30px;
+}
+
+.reqBut:hover{
+  cursor: pointer;
+}

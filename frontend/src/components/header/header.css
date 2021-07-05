@@ -1,0 +1,43 @@
+.header {
+    text-align: center;
+    /* background-color: #212121; */
+}
+
+.links {
+    overflow: hidden;
+    background-color: #212121;
+    display: flex;
+}
+
+.links a {
+    align-items: center;
+    float: left;
+    flex: 1;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    background-color: #3d3d3d;
+    color: black;
+}
+
+.logout {
+    align-items: center;
+    float: left;
+    flex: 1;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.logout:hover {
+  cursor: pointer;
+  background-color: #3d3d3d;
+  color: black;
+}

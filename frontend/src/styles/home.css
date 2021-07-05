@@ -1,0 +1,31 @@
+#left , #right {
+  float:left;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#left {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#right {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+#left:hover {
+  background-color: #706c61;
+  color: #333333;
+  cursor: pointer;
+}
+
+#right:hover {
+  background-color: #706c61;
+  color: #ffffff;
+  cursor: pointer;
+}

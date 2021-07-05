@@ -1,0 +1,31 @@
+.containerPost {
+  background-color: #706c61;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.butSub {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.butSub:hover {
+  cursor: pointer;
+}
+
+.titlePost {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.textInput {
+  text-align: left;
+  margin: auto;
+  height: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

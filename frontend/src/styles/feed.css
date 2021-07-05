@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    background-color: #181818;
+    color: #ffffff;
+    font-family: tahoma;
+} 
+
+.content div {
+    float:left;
+}
+
+.left {
+    width: 15%;
+}
+.right {
+    width: 25%;
+}
+
+.main {
+    width: 60%;
+}
+
+.left, .right, .main {
+    min-height: 100vh;
+    /* min-height: 500px; */
+    display: flex;
+    /* background-color: red; */
+}
+
+#searchContainer {
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  min-height: 10px;
+  margin-top: 30px;
+}
+
+.searchbox{
+  width: 70%;
+  height: 100%;
+}
+
+.searchbutton{
+  width: 30%;
+  height: 100%;
+}
+
+.searchuser {
+  margin: auto;
+  width: 30%;
+  height: 50px;
+  background-color: #706c61;
+  margin-top: 30px;
+}
